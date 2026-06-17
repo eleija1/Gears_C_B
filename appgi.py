@@ -10,7 +10,7 @@ CATEGORIES = ["Bad Gear", "Good Gear"]
 
 st.set_page_config(page_title="Gear Inspector", layout="centered")
 
-st.title("Batch Gear Quality Inspector")
+st.title("Gear Quality Inspector")
 st.write("Select multiple gear images to analyze a batch at once.")
 
 @st.cache_resource
