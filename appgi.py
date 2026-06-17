@@ -8,7 +8,7 @@ MODEL_PATH = "gear_model.pkl"
 IMG_SIZE = 100
 CATEGORIES = ["Bad Gear", "Good Gear"]
 
-st.set_page_config(page_title="Batch Gear Inspector", layout="centered")
+st.set_page_config(page_title="Gear Inspector", layout="centered")
 
 st.title("Batch Gear Quality Inspector")
 st.write("Select multiple gear images to analyze a batch at once.")
